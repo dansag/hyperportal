@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+
+  background-color:blue;
+  color:#FFF;
+  background-image: url(/paginas/menu/imagenes/fondo_menu.png);
+  font-size: 10px;
+  font-family: Calibri;
+
+
+}
+
+a{
+  text-decoration: none;
+
+}
+.link
+{
+
+  background-color: black;
+  color: white;
+  background-image: url(/paginas/menu/imagenes/tag_link.png);
+  text-decoration: none;
+  height: 20px;
+  width: 80px;
+  padding-left: 15px;
+
+}
+.link:hover
+{
+  background-color: white;
+  color: red;
+  background-image: url(/paginas/menu/imagenes/tag_link_hover.png);
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+
+}

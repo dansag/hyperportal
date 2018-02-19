@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+.td_menu_encabezado
+{
+	background-image: url(/index_htm_files/backgroud_title.png);
+ 	color: white;
+
+}
+
+
+.td_menu_encabezado:hover
+{
+	background-image: url(/index_htm_files/backgroud_title_over.png);
+	color:blue;
+}
+
+.link_title
+{
+	decoration:non;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	  text-align: center;
+}
+
+.link_title:hover
+{
+	decoration:non;
+	color: white;
+	list-style: none;
+	text-decoration: bold;
+}
+
+.body_general
+{
+	background-color:#302F2F;
+	color:#FFF;
+}
+
+
+.tabla1
+{
+	background-image:url(/index_htm_files/tabla1.png);
+}
+
+.tr1
+{
+	background-image:url(/index_htm_files/tr1.png);
+
+}
+
+.table_menu1
+{
+	background-color:#900;
+}piedocumento {
+	text-align: center;
+}
+#piedocumento {
+	text-align: center;
+	font-weight: bold;
+}
+
+.plancha_menu
+{
+	background-image:url(/index_htm_files/plancha.png);
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	}
+#titulo_menu {
+	color: #FFF;
+}
+.body_general .tabla1 .tr1 td table tr td .plancha_menu tr td strong u {
+	color: #FFF;
+}
+
+.encabezado_menu
+{
+	background-image:url(/index_htm_files/encabezado_menu.png);
+}
+
+.enlace1
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.enlace1:hover
+{
+	color:#F00;
+}
+.text {
+	color: #FFF;
+}
+.goso {
+	font-weight: bold;
+}
+
+.body2
+{
+
+	color:#FFF;
+	background:#000;
+}
+.body_general .tabla1 tr #piedocumento p {
+	font-size: 12px;
+}
+
+.servicio {
+	font-size: 24px;
+	color:#FC0;
+}
+
+.servicio:hover {
+	font-size: 24px;
+	color:Red;
+	cursor:pointer;
+}
+
+.body2 #titulo_pagina {
+	color: #000;
+}
+.Estilo6 {
+	color: #F90;
+}
+
+
+.enlaces
+{
+	color:#0FF;
+	text-decoration:none;
+	border:none;
+	text-decoration:none;
+
+}
+
+.enlace:hover
+{
+  cursor:pointer;
+  color:Red;
+	text-decoration:none;
+	border:none;
+}
+.tablaprincipal {
+	background-attachment: fixed;
+	background-image: url(/index_htm_files/0.png);
+	background-repeat: no-repeat;
+}
+.menu_nuevo {
+
+}
+
+
+.div_menu
+{
+	display:none;
+}
+
+.contenido
+{
+	padding-left:5px;
+	padding-right:15px;
+	overflow: auto;
+	border-left:solid 1px #F00;
+	border-right:solid 1px #F00;
+	background-image:url(/index_htm_files/0.png);
+	text-align:left;
+}
+
+.Estilo1 {	color: #0000FF;
+	font-weight: bold;
+}
+.Estilo2 {	color: #FF0000;
+	font-weight: bold;
+}
+.Estilo4 {
+	color:#0F0;
+	font-size: 12px;
+}
+.Estilo61 {
+	color:#900;
+	font-weight: bold;
+}
+.Estilo8 {
+	font-size: 14px;
+	color: #FFF;
+}
+
+
+.etiqueta_precios
+{
+	background:url(/index_htm_files/estrella.png);
+	background-repeat:no-repeat;
+	height:53px;
+	width:790px;
+}
+
+.etiqueta_servicios
+{
+	width:790px;
+	background:url(/index_htm_files/relleno_etiqueta.png);
+}
+
+.etiqueta_encabezado
+{
+	background:url(/index_htm_files/etiqueta1.png);
+	background-repeat:no-repeat;
+	height:23px;
+	width:790px;
+
+}
+
+.etiqueta_pie
+{
+
+	background:url(/index_htm_files/etiqueta2.png);
+	background-repeat:no-repeat;
+	height:23px;
+	width:790px;
+}
+
+.menu_encabezado
+{
+    background-image:url(/index_htm_files/encabelado.png);
+    background-repeat:no-repeat ;
+    height: 41px;
+}
+
+.menu_pie
+{
+    background-image:url(/index_htm_files/pie_menu.png);
+    background-repeat:no-repeat;
+    height:41px;
+
+}
+
+.menu_fondo
+{
+    background-image:url(/index_htm_files/3.png);
+    background-repeat:repeat-y;
+}
+
+.menu_enlaces
+{
+    margin-left:0px;
+}
+
+.div1
+{
+    background-image:url(/index_htm_files/giphy.gif);
+    width:108px;
+    height:80px;
+    text-indent: 12px;
+		border-style: outset;
+		border-color: red;
+}
+
+.encapezado
+{
+    text-align: center;
+}
+
+form
+{
+  align:center;
+	color: grey;
+}
+.titulo_form
+{
+	width: 150px;
+}
+.span_form
+{
+	color: white;
+}
+
+.label_registro
+{
+	font-size: 8px;
+	color: yellow;
+}
