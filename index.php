@@ -116,10 +116,7 @@ $visitas->nueva_visita($ip);
           
 		  <img src="index_htm_files/etiqueta_pie.png" width="938" height="31" /></td>
       </tr>
-    </table>   
-	
-	   
-	</td>
+    </table></td>
   </tr>
 </table>
 <p style="font-size: 10px; color: #4C45A2; text-align: center;">HYPER-PORTAL@2009 - Creado por Daniel Sagols Domínguez</p>

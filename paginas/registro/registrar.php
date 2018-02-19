@@ -10,7 +10,8 @@
 <?php
 if(!isset($_SESSION["usuario"]))
 { 
-echo "<p>No se encuentra registrado</p>"; ?>
+echo "<p>No se encuentra registrado</p>"; 
+?>
 <form method="post">
 <table align="center">
 <tr>

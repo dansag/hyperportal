@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9,7 +10,14 @@
 <body>
 <table width="100" border="0">
   <tr>
-    <td><a href="/paginas/evoriders/home.php" target="contenido_principal"><div class="link">Login</div></a></td>
+    <td>
+	<?php if($_SESSION['usuario']=="")
+	{
+		echo '<a href="/paginas/evoriders/home.php" target="contenido_principal"><div class="link">Login</div></a>'
+	}
+	?>
+	</td>
+	
   </tr>
   <tr>
     <td><a href="/paginas/evoriders/home.php" target="contenido_principal"><div class="link">Perfil</div></a></td>

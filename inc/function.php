@@ -25,6 +25,7 @@ class visitas
 	    return $total_visitas;
     
 	}
+    
 }
 
 
