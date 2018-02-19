@@ -55,8 +55,15 @@ if(isset($_POST['registrar']))
 	
 	if(!$usuario || !$nombre || !$email || !$password)
 	{
-	
-		echo "Porfavor asegurese de ingresar todos los campos para poder registrarse";
+		if (preg_match($email, '@'))
+		{
+			echo "Asegurese de introcucir un email correcto."; 
+		}
+		else
+		{
+			echo "Porfavor asegurese de ingresar todos los campos para poder registrarse";
+		}
+		
 	
 	}
 	else
