@@ -15,6 +15,16 @@ p.title{
   color: white;
 }
 
+p.messageerror{
+  color:red;
+  background-color: black;
+  font-size: 14px;
+  font-stretch: semi-expanded;
+  padding-left: 10px;
+  border-style: double;
+  border-color: red;
+}
+
 input[type='submit']
 {
 
