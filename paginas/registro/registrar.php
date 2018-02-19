@@ -1,3 +1,7 @@
+<?php session_start(); 
+include("../../inc/class_usuarios.php"); 
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -35,6 +39,41 @@ echo "<p>No se encuentra registrado</p>";
 } else
 {
 	echo "Ya se encuenta registrado"; 
+}
+
+if(isset($_POST['registrar']))
+{
+	
+	$usuario=$_POST['usuario'];
+	$nombre=$_POST['nombre'];
+	$email=$_POST['email'];
+	$password=$_POST['password'];
+	$ip=$_SERVER['REMOTE_ADDR']; 
+	$permisos=0;
+	
+	$class_usuarios = new db_usuarios; 
+	
+	if(!$usuario || !$nombre || !$email || !$password)
+	{
+	
+		echo "Porfavor asegurese de ingresar todos los campos para poder registrarse";
+	
+	}
+	else
+	{
+		
+		$registro=$class_usuarios->registrar_usuario($usuario,$nombre,$email,$ip,$password,$permisos);
+	
+			if($registro=true)
+			{
+				$class_usuarios->enviar_confirmacion_registro($email);
+			}
+			else
+			{
+				echo "Ha ocurrido un error, porfavor contacte con el administrador <a href='mail:daniel@hyperportal.es'>Aqui</a>";
+			}	
+	}
+	 
 }
 ?>
 </p>
